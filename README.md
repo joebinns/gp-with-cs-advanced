@@ -1,5 +1,5 @@
 # Game programming with C# -- Advanced
-Please criticise my work! I am trying to improve as a game programmer, at the moment I am especially interested in becoming more confident in my application of the SOLID principles.
+Please criticise my work! I am trying to improve as a game programmer, at the moment I am especially interested in improving my adherence to the SOLID principles.
 
 ## Lecture 1: Setup
 

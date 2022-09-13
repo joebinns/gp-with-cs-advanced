@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,10 +14,16 @@ public class Emitter : MonoBehaviour
     {
         _temperature = GetComponent<Temperature>();
     }
-    
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, transform.lossyScale.magnitude * 1f);
+    }
+
     private void EmitHeat()
     {
-        _nearbyColliders = Physics.OverlapSphere(transform.position, transform.lossyScale.magnitude * 10f);
+        _nearbyColliders = Physics.OverlapSphere(transform.position, transform.lossyScale.magnitude * 1f);
 
         foreach (Collider nearbyCollider in _nearbyColliders)
         {

@@ -317,6 +317,10 @@ GameObject:
   - component: {fileID: 1338810127}
   - component: {fileID: 1338810126}
   - component: {fileID: 1338810130}
+  - component: {fileID: 1338810131}
+  - component: {fileID: 1338810132}
+  - component: {fileID: 1338810133}
+  - component: {fileID: 1338810134}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
@@ -357,7 +361,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b75cfaf78b014c64186f9761d3111dd2, type: 2}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -415,6 +419,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _temp: 0
+--- !u!114 &1338810131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338810124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1b429295bc7f747bbd5672a7642054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1338810132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338810124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35bb4f22763f9b42b603c906b0b2800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _heatmap: {fileID: 2800000, guid: d0b94098aab9ff6499ac27d271c26da5, type: 3}
+--- !u!114 &1338810133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338810124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69e108c826d72384baabb356d82397a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1338810134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338810124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 578186840a5ed2143b27bfa0917c4cf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1376338532
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,6 +575,8 @@ GameObject:
   - component: {fileID: 1428696293}
   - component: {fileID: 1428696292}
   - component: {fileID: 1428696295}
+  - component: {fileID: 1428696296}
+  - component: {fileID: 1428696297}
   m_Layer: 0
   m_Name: Teapot
   m_TagString: Untagged
@@ -619,4 +674,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f55ffe7c020384c8a6bc7251e5717a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _temp: 0
+  _temp: 25
+--- !u!114 &1428696296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428696290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35bb4f22763f9b42b603c906b0b2800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _heatmap: {fileID: 2800000, guid: d0b94098aab9ff6499ac27d271c26da5, type: 3}
+--- !u!114 &1428696297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428696290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc30e93fd73867418986d060d447f69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

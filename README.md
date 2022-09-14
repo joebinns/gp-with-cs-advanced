@@ -9,3 +9,7 @@ Please criticise my work! I am trying to improve as a game programmer, at the mo
 I'm trying to keep the SOLID principles in mind when doing things now, although this case felt too simple to warrant any rework.
 
 ![](https://joebinns.com/documents/gifs/cube_art.gif)
+
+## Lecture 4: Game Loops
+
+![](https://joebinns.com/documents/gifs/pinball.gif)

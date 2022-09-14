@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Temperature))]
 public class TemperatureController : MonoBehaviour
 {
+    // TODO: Should I make this a subclass of Temperature?
     
     private Temperature _temperature;
     

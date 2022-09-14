@@ -42,7 +42,7 @@ public class Emitter : MonoBehaviour
                 var distance = Vector3.Distance(transform.position, nearbyCollider.transform.position);
                 
                 // Heat up the nearby object
-                nearbyTemperature.Temp += tempDiff * Time.deltaTime * (1 / distance) * 1f;
+                nearbyTemperature.Temp += tempDiff * Time.deltaTime * Mathf.Pow(distance, -2) * 1f;
             }
         }
     }

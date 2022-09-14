@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cube Art/Cube Art Scene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Game Loop/Physics Demo Scene.unity
+    guid: f168210ec11c8804a967148f0a962df8
   m_configObjects: {}
